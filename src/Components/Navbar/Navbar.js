@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 
 function Navbar() {
+  const handleClick = () => {};
   return (
     <nav>
       {/* <!-- Navigation logo section --> */}
@@ -15,7 +16,7 @@ function Navbar() {
             height="26"
             width="26"
             viewBox="0 0 1000 1000"
-            style="fill:#3685fb"
+            style={{ fill: "#3685fb" }}
           >
             <title>Doctor With Stethoscope SVG icon</title>
             <g>
